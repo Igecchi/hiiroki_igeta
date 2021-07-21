@@ -1,0 +1,122 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #FFF;
+  color: #000;
+  height: 60px;
+  width:100%;
+  border-bottom: 2px solid #696969;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-logo {
+  float: left;
+  font-family: "Baloo";
+  font-size: 36px;
+  padding: 0px 60px 0px 15%;
+}
+
+.header-logo span {
+  font-size: 25px;
+}
+  
+.header-list {
+  float: left;
+  font-family: "Baloo";
+  color:#fff;
+  font-size: 15px;
+  padding: 0px 25px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding:3px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity:1;
+  transition:all 0.3s;
+}
+
+.btn:active {
+  box-shadow:none;
+}
+
+.twitter {
+  background-color:#55acee;
+  margin-right: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px #3b5998
+}
+
+.facebook {
+  background-color:#3b5998;
+  margin-right: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px #1c305c
+}
+
+.fa {
+  margin-right:10px;
+}
+
+.main {
+  padding: 10px 15%;
+  margin-top:60px;
+}
+
+.header-update {
+  font-size: 15px;
+  color: #696969;
+}
+
+.picture img {
+  width: auto;
+  height: 300px;
+  margin: 0px 0px 0px 30px;
+}
+
+.picture il {
+  line-height: 12px;
+}
+
+.picture span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  height: 30px;
+  border-top: 2px solid #696969;
+}
+
+.footer-logo {
+  float: left;
+  font-family: "Baloo";
+  font-size: 25px;
+  padding: 10px 0px 10px 15%
+}
+
+.footer-logo span {
+  font-size: 20px;
+}
+
+.footer-list {
+  float: right;
+  padding: 10px 15% 10px 0px
+}
